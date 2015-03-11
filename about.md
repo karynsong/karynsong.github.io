@@ -1,7 +1,0 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
-希望可以把自己工作及学习的点滴记录下来
