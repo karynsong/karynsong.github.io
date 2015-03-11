@@ -1,0 +1,8 @@
+root: /
+permalink: /:year-:month/:title/
+paginate: 5
+
+title: Karyn 的博客
+
+# Build settings
+markdown: kramdown
