@@ -1,14 +1,12 @@
 # Site settings
 title: Karyn 的博客
-email: your-email@domain.com
+email: karyn_song@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  希望可以把自己工作及学习的点滴记录下来
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
-github_username:  karynsnong
+github_username:  karynsong
 
 # Build settings
 markdown: kramdown
