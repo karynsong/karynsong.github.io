@@ -1,7 +1,7 @@
 /*
  * application.less
- * by @hushaw
- * http://hushaw.github.io
+ * by @karyn
+ * http://karynsong.github.io
  */
 body {
   font-family: "PT Serif", Georgia, "Microsoft YaHei", Arial, sans-serif;
@@ -41,7 +41,7 @@ h3 {
   z-index: 9999;
 }
 .page-brand {
-  margin: 0 7.5%;
+  margin: 0 11%;
   display: block;
 }
 .page-brand h1 {
@@ -63,7 +63,7 @@ h3 {
 .page-navbar {
   margin: 0 auto 6px;
   overflow: hidden;
-  background: #000;
+  background: #888;
 }
 .page-navbar .page-navbar-container {
   margin: 0 7.5%;
@@ -71,7 +71,7 @@ h3 {
 .page-navbar .page-navbar-container .page-nav {
   font-size: 13px;
   list-style: none;
-  margin: 0 0 0 -10px;
+  margin: 0 0 0 16px;
   padding-left: 0;
 }
 .page-navbar .page-navbar-container .page-nav li {
@@ -84,6 +84,8 @@ h3 {
   line-height: 3.5em;
   padding: 0 1.25em;
   text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 700;
 }
 .page-navbar .page-navbar-container .page-nav a:hover,
 .page-navbar .page-navbar-container .page-nav a:focus {
@@ -91,7 +93,7 @@ h3 {
   background: #fff;
 }
 .page-article {
-  margin: 0 7.5%;
+  margin: 0 11%;
   width: auto;
 }
 .page-header {
@@ -104,8 +106,8 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, "Kai", "Kaiti SC", "KaiTi", "BiauKai", "楷体", "楷体_GB2312", serif;
 }
 .page-content {
-  border-bottom: 1px dashed #aaa;
-  margin: 0 0 1.5em;
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 3em;
   padding: 0 0 1.5em;
   position: relative;
 }
@@ -129,7 +131,7 @@ h3 {
   clear: both;
   font-size: 13px;
   line-height: 18px;
-  border-bottom: 1px solid #d5d5d5;
+  border-bottom: 1px dashed #d5d5d5;
   padding: .5em;
 }
 .page-content .post-meta span {
@@ -214,7 +216,9 @@ h3 {
   float: right;
 }
 .read-more a {
-  color: #222;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #666;
   text-decoration: none;
 }
 .read-more:hover,
