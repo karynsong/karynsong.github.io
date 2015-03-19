@@ -8,9 +8,6 @@ body {
   background: url("/static/img/light.png") repeat fixed;
   font-size: 14px;
 }
-li.L4 {
-  list-style-type: none;
-}
 pre {
   white-space: pre;
   white-space: pre-wrap;
