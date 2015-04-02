@@ -4,9 +4,9 @@
  * http://karynsong.github.io
  */
 body {
-    font-family: "PT Serif", Georgia, "Microsoft YaHei", Arial, sans-serif;
-    background: #7fbfda;
-    font-size: 14px;
+  font-family: "PT Serif", Georgia, "Microsoft YaHei", Arial, sans-serif;
+  background: url("/static/img/light.png") repeat fixed;
+  font-size: 14px;
 }
 pre {
   white-space: pre;
@@ -31,11 +31,10 @@ h3 {
 .page-container {
   max-width: 1280px;
   margin: 0 auto;
-  background: url("/static/img/bg.png") repeat;
-  box-shadow: 0 0 10px #0088d3;
-  border-radius: 15px;
+  background-color: #f7f7f7;
 }
 .page-heading {
+  border-top: 2px solid #bbb;
   padding-bottom: 10px;
   position: relative;
   z-index: 9999;
@@ -43,11 +42,9 @@ h3 {
 .page-brand {
   margin: 0 11%;
   display: block;
-  overflow: hidden;
 }
 .page-brand h1 {
   padding: 1.05em 0 0;
-  float: left;
 }
 .page-brand h1 a {
   color: #111;
@@ -60,13 +57,12 @@ h3 {
 .page-brand h2 {
   color: #7a7a7a;
   font-size: 18px;
-  margin: 3em 3em 1.25em;
-  float: left;
+  margin: 1em 0 1.25em;
 }
 .page-navbar {
   margin: 0 auto 6px;
   overflow: hidden;
-  background: #03a8f3;
+  background: #888;
 }
 .page-navbar .page-navbar-container {
   margin: 0 7.5%;
@@ -89,15 +85,11 @@ h3 {
   text-decoration: none;
   font-size: 1.3em;
   font-weight: 700;
-  transition: transform 1s,color 1s,background .5s;
 }
 .page-navbar .page-navbar-container .page-nav a:hover,
 .page-navbar .page-navbar-container .page-nav a:focus {
-  /*background: #7fbfda;
-  border-bottom: 5px solid #000;*/
+  color: #222;
   background: #fff;
-  color: #44bb88;
-  transform: scale(1.1);
 }
 .page-article {
   margin: 0 11%;
@@ -291,14 +283,14 @@ h3 {
   border-bottom: 1px solid #aaa;
 }
 .page-tags a {
-    color: #222;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 5px;
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 5px;
 }
 .page-tags a span {
-	vertical-align: super;
-	font-size: 0.75em;
+  vertical-align: super;
+  font-size: 0.75em;
 }
 .page-tags a:hover,
 .page-tags a:focus {
@@ -321,8 +313,4 @@ blockquote.white-blockquote ul{
   font-size: 16px;
   line-height: 27px;
   color: #2C3E50;
-}
-pre.prettyprint {
-  box-shadow: 0 0 10px #ccc;
-  border-radius: 5px;
 }
