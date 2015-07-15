@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>404 Page - Karyn 的博客</title>
     <meta name="description" content="karyn 宋奇 博客">
     <meta name="author" content="karyn">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,13 +33,28 @@
          </div>
      </div>
      <div class="page-article">
-         {{ content }}
+         <div class="page-header">
+    <h2>303 Page</h2>
+</div>
+<div>
+    <div class="page-blank">
+    <div>
+        <h3>查无此文</h3>
+        <p>回到首页<a href="/">首页</a>, 或者告知管理员[<a href="mailto:karyn_song@qq.com">karyn_song@qq.com</a>]</p>
+    </div>
+</div>
+
+
+
+</div>
+
+
      </div>
      <div class="page-footer">
          <span>
              Hosted by <a href="https://github.com/karynsong/karynsong.github.io">github</a>
              | Author by <a href="/about.html">karyn</a>
-             | Login Time <span class="page-generator-time">{{site.time | date:"%Y年%m月%d日 %H时%M分%S秒"}} </span>
+             | Login Time <span class="page-generator-time">2015年07月15日 11时18分04秒 </span>
              | 以我的长相完全可以靠脸吃饭，但任性的我偏要靠才华
          </span>
      </div>
@@ -63,7 +78,18 @@
             // }
         });
      </script>
-     {% include google_analysis.md %}
+     <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34850864-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
 </body>
 </html>
 
