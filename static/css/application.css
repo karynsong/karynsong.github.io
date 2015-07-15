@@ -328,4 +328,5 @@ blockquote.white-blockquote ul{
 pre.prettyprint {
   box-shadow: 0 0 10px #ccc;
   border-radius: 5px;
+  padding-left: 20px;
 }
