@@ -27,3 +27,4 @@ server.on('connection', function(socket) {
         socket.broadcast.emit('socketName2', 'pang2');
     }, 5000);
 });
+require('./html/test.js')
