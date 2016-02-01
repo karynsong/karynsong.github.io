@@ -161,6 +161,10 @@ hr{
 .page-content .post-entry blockquote p {
   font-size: 15px;
 }
+.page-content .post-entry p img {
+  width: 78vw;
+  margin-left: -2em;
+}
 .page-content .post-footer {
   clear: both;
   font-size: 15px;
