@@ -1,8 +1,37 @@
-root: /
-permalink: /:year-:month/:title/
-paginate: 5
+# ----------- CONFIGURABLE START -----------
+title:            "karynsong|BMFE|eros"
+description:      "以我的长相完全可以靠脸吃饭，但任性的我偏要靠才华"
+url:              https://karynsong.github.io # 域名
+signoff:          "karynsong"
+# google_analytics: UA-101222464-1
+share:            true 
+# 分页
+paginate: 15
+paginate_path: "page:num"
+gems: [jekyll-paginate]
+links:
+  - name:         首页
+    url:          /
+    external:     false
+  # - name:         书籍
+  #   url:          /book
+  #   external:     false
+  # - name:         旅游
+  #   url:          /road
+  #   external:     false
+  - name:         归档
+    url:          /archives
+    external:     false
+  - name:         标签
+    url:          /tags
+    external:     false
+  - name:         关于
+    url:          /about
+    external:     false
+# ------------ CONFIGURABLE END ------------
 
-title: Karyn 的博客
-
-# Build settings
-mardown: markdown
+#permalink:        /:categories/:title.html
+permalink: /:year/:month/:day/:title.html
+defaults:
+  - values:
+      layout: "default"
