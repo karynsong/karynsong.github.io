@@ -162,7 +162,7 @@ hr{
   font-size: 15px;
 }
 .page-content .post-entry p img {
-  width: 78vw;
+  width: 100%;
   margin-left: -2em;
 }
 .page-content .post-footer {
