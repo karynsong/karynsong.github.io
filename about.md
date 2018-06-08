@@ -1,8 +1,6 @@
 ---
 layout: blog
 title: 关于 karynsong
-description: "简介"
-data: 2017-08-05 09:19:11
 redirect_from:
   - /about/
 ---
